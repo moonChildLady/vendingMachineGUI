@@ -1,0 +1,64 @@
+{
+  "products": [
+  	{
+  		"itemname":"Coca-cola",
+  		"itemcode":"C001",
+		"price": "$0.1",
+		"button": 1
+
+	},{
+			"itemname":"Coca-Light",
+			"itemcode":"C002",
+			"price": "$0.1",
+		"button": 3
+
+	},{
+			"itemname":"maid",
+			"itemcode":"C003",
+			"price": "$0.1",
+		"button": 2
+
+	},{
+			"itemname":"sprite",
+			"itemcode":"C004",
+			"price": "$0.2",
+		"button": 4
+
+	},{
+			"itemname":"bonaqua",
+			"itemcode":"C005",
+			"price": "$0.2",
+		"button": 5
+	},{
+  		"itemname":"Coca-cola",
+  		"itemcode":"C006",
+		"price": "$0.2",
+		"button": 6
+
+	},{
+			"itemname":"Coca-Light",
+			"itemcode":"C007",
+			"price": "$0.3",
+		"button": 7
+
+	},{
+			"itemname":"maid",
+			"itemcode":"C008",
+			"price": "$0.3",
+		"button": 8
+
+	},{
+			"itemname":"sprite",
+			"itemcode":"C009",
+			"price": "$0.3",
+		"button": 9
+
+	},{
+			"itemname":"bonaqua",
+			"itemcode":"C010",
+			"price": "$0.3",
+		"button": 10
+	}
+	]
+}
+

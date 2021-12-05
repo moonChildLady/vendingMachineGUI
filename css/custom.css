@@ -1,0 +1,338 @@
+/*#about the style on Font size, color and padding
+
+-Color
+The color array of each blocks in global.js
+after define the array in above js file, you should define those class name in custom.css
+
+-Font Size
+You can refer to custom.css*/
+
+@media (min-width: 1080px) {    
+        .row_slideshow, .fix_slideshow{
+            width:1080px;
+
+        }
+    }
+/*define a font face*/
+@font-face
+{
+font-family: myFirstFont;
+src: url(../CooperBlackStd.otf);
+}
+/*define a font face*/
+@font-face
+{
+font-family: for_eng;
+src: url(../DFKanTingLiuStd-W9.otf);
+}
+/*define a font face*/
+@font-face
+{
+font-family: for_chi;
+src: url(../DFETMO9_0.TTF);
+}
+
+body{
+  /*overflow: hidden;*/
+  /*no highlight*/
+  -webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+    .img-responsive {
+        margin: 0 auto;
+		-webkit-filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
+    }
+	#page2{
+		display: none;
+	}
+
+/* divs */
+.row_slideshow > div { 
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    padding: 0;
+}
+/*use for price (like $6.5)*/
+.dollor_number{
+	font-family: myFirstFont;
+	font-size: 30px;
+	font-weight: bold;
+	line-height:0px;
+}
+/*use for text (like Buy)*/
+.dollor_text{
+	font-family: for_eng;
+	font-size: 30px;
+	font-weight: bold;
+}
+/*use for text (like 購買)*/
+.chi{
+  font-family: for_chi;
+  font-size: 30px;
+  font-weight: bold;
+}
+/*here about the background color */
+	.color_1{
+		background-color:#E4E506;/*Yellow*/
+	}
+	.color_2{
+		background-color:#FF6200;/*Orange*/
+	}
+	.color_3{
+		background-color:#FF003C;/*Red*/
+	}
+	.color_4{
+		background-color:#00E7FC;/*Blue*/
+	}
+	.color_5{
+		background-color:#C6FF00;/*Light Green*/
+	}
+	.color_6{
+		background-color:#00FF82;/*Sharp green*/
+	}
+	.color_7{
+		background-color:#ABC6E4;/*Blue purple*/
+	}
+	.color_8{
+		background-color:#BA74B0;/*Purple*/
+	}
+	.color_9{
+		background-color:#6FC797;/*Green*/
+	}
+	.color_10{
+		background-color:#EB3D62;/*Peach*/
+	}	
+	.color_11{
+		background-color:#32afeb;/*Ocean blue*/
+	}
+	.color_12{
+		background-color:#ffd246;/*Moody orange*/
+	}
+	.color_13{
+		background-color:#82d72d;/*Kiwi green*/
+	}
+	.colspan {
+			float: right;
+		}
+/* end of background color*/   
+	img{
+		/*height:100% !important;*/
+	}
+	.vcenter{
+		padding-top: 50%;
+	}
+	/*#msg_box{
+		padding-top:50px;
+	}*/
+video{
+  /*width: 100%    !important;
+  height: auto   !important;
+  z-index:9998;*/
+  position: absolute; 
+  z-index: 9990; 
+  width: 100%    !important;
+  height: auto   !important; 
+}
+.video_cancel{
+	position: absolute; 
+	z-index: 9997; 
+}
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+.row{
+  margin-left: 0px;
+}
+.vcenter_text{
+    height:150px; 
+  line-height:150px;
+}
+.messageimg{
+  margin-left: -40%;
+}
+.messagebox{
+  margin-left: -85%;
+  margin-top:100px;
+}
+#img_boom_yellow{
+  margin-top: -10%;
+  margin-left: -35%;
+  z-index:3;
+}
+#img_boom_white{
+  
+  margin-top: -100%;
+  margin-left: -45%;
+  z-index:2;
+}
+#img_boom_text_all{
+  
+  margin-top: -110%;
+  margin-left: -35%;
+  z-index:1;
+}
+#img_boom_text_sold{
+  
+  margin-top: -110%;
+  margin-left: -20%;
+  z-index:1;
+}
+#img_boom_text_code{
+  
+  margin-top: 10%;
+  margin-left: -20%;
+  z-index:1;
+}
+.arrow{
+   margin-top: 18%;
+  margin-left: -5%;
+}
+#block_modal{
+  width:1080px;
+  background-image: url("../img/img_octopus_bg.jpg");
+
+}
+#block_video{
+  width:1080px;
+  background-color:#000;
+
+}
+#page1{
+  margin-top: -56px;
+}
+#lang_position{
+  position:relative;
+  z-index:9998;
+  
+}
+.tnc{
+
+  margin-top: 23%;
+  margin-left: -5%;
+}
+.tncc.scroll{
+  font-family:"Calibri (Body)";
+  font-size: 30px;
+  font-weight: bold;
+  width:100%;
+  height:300px;
+  overflow-y:scroll;
+}
+.fullbkg{
+  /*background-image: url("../img/img_octopus_bg.jpg");*/
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1080px;
+  height: 1920px;
+  z-index: 9998;
+  background-color: red;
+}
+.fullscreen {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  margin: 0;
+  padding: 0;
+}
+.messagebox_bg{
+ position: relative; 
+  /*background-image: url("../img/img_octopus_box_single.png")*/
+  }
+ .messagebox_bg > div {
+ position: absolute; 
+   top: 10%; 
+   left: 7%;
+   width: 100%; 
+ }
+.cs{
+  /*font-family:"Calibri (Body)";*/
+  
+  font-size: 30px;
+  font-weight: bold;
+}
+/*.select_product{
+  position: relative; 
+}*/
+.select_product > .postion_cost {
+	position: absolute; 
+   top: 1%; 
+   left: 2%;
+   width: 100%; 
+ }
+
+
+ .btn-group{
+  z-index:9999;
+ }
+ .code{
+	font-family: myFirstFont;
+ }
+ .oncontent{
+  background-image:url('../img/img_octopus_bg.jpg');
+ }
+ .onvideo{
+  /*background-image:url('../img/img_octopus_bg.jpg');*/
+  background-color: #000;
+
+ }
+ .img-responsive {
+    display: block;
+    width: auto;
+    max-height: 100%;
+}
+.img-responsive-h {
+    display: block;
+    width: auto;
+    max-width: 100%;
+}
+.center_block {
+    display: block;
+	margin-top: 45%;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 50%;
+ }
+.dollor_number_content{
+		font-size: 30px;
+	font-weight: bold;
+	line-height:0px;
+}

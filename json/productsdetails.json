@@ -1,0 +1,66 @@
+{
+  "products": [
+  	{
+  		"itemname":"Coca-cola",
+  		"itemcode":"C001",
+  		"image":"img/SCCHK/1.png",
+		"content":"abcdefg adsfadsfa ddsaf",
+		"sort_order":""
+	},{
+			"itemname":"Coca-Light",
+			"itemcode":"C002",
+			"image":"img/SCCHK/2.png",
+		"content":"abcdefg adsfadsfa ddsaf",
+		"sort_order":""
+	},{
+			"itemname":"maid",
+			"itemcode":"C003",
+			"image":"img/SCCHK/3.png",
+		"content":"abcdefg adsfadsfa ddsaf",
+		"sort_order":""
+	},{
+			"itemname":"sprite",
+			"itemcode":"C004",
+			"image":"img/SCCHK/4.png",
+		"content":"abcdefg adsfadsfa ddsaf",
+		"sort_order":""
+	},{
+			"itemname":"bonaqua",
+			"itemcode":"C005",
+			"image":"img/SCCHK/5.png",
+		"content":"abcdefg adsfadsfa ddsaf",
+		"sort_order":""
+	},{
+  		"itemname":"Coca-cola",
+  		"itemcode":"C006",
+  		"image":"img/SCCHK/6.png",
+		"content":"abcdefg adsfadsfa ddsaf",
+		"sort_order":""
+	},{
+			"itemname":"Coca-Light",
+			"itemcode":"C007",
+			"image":"img/SCCHK/7.png",
+		"content":"abcdefg adsfadsfa ddsaf",
+		"sort_order":""
+	},{
+			"itemname":"maid",
+			"itemcode":"C008",
+			"image":"img/SCCHK/8.png",
+		"content":"abcdefg adsfadsfa ddsaf",
+		"sort_order":""
+	},{
+			"itemname":"sprite",
+			"itemcode":"C009",
+			"image":"img/SCCHK/9.png",
+		"content":"abcdefg adsfadsfa ddsaf",
+		"sort_order":""
+	},{
+			"itemname":"bonaqua",
+			"itemcode":"C010",
+			"image":"img/SCCHK/10.png",
+		"content":"abcdefg adsfadsfa ddsaf",
+		"sort_order":""
+	}
+	]
+}
+

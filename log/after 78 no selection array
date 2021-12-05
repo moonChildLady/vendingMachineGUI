@@ -1,0 +1,222 @@
+after 78 no selection array
+secound onSelectionMode called callback_function.js:92
+16
+Timer 0.3 Second Call:  trigger_function.js:113
+3
+[cycle2] cycle-paused jquery.cycle2.min.js:6
+prodcutpress init_function.js:260
+3
+Timer 0.3 Second Call:  trigger_function.js:113
+button: 9, image: img/SCCHK/9.png, cost: $0.3 callback_function.js:8
+Timer 0.3 Second Call:  trigger_function.js:113
+ trigger_function.js:48
+Button : 9 is pressed trigger_function.js:49
+2
+Timer 0.3 Second Call:  trigger_function.js:113
+10:55:45.907 : calling 4BH trigger_function.js:182
+onVendRequestMode 0 callback_function.js:47
+16
+Timer 0.3 Second Call:  trigger_function.js:113
+Deduced Cost : .30 trigger_function.js:156
+Remaining Value : 63.7 trigger_function.js:157
+onOctopusDeducted :.30, 63.7 callback_function.js:31
+49
+Timer 0.3 Second Call:  trigger_function.js:113
+10:56:6.142 : 4AH trigger_function.js:173
+Message Code : 78 trigger_function.js:174
+onMessageScreen: 78 callback_function.js:102
+Timer 0.3 Second Call:  trigger_function.js:113
+10:56:6.675 : 4AH trigger_function.js:173
+Message Code : 78 trigger_function.js:174
+onMessageScreen: 78 callback_function.js:102
+19
+Timer 0.3 Second Call:  trigger_function.js:113
+Vend Idle.......... trigger_function.js:145
+Remaining Credit : .30 trigger_function.js:146
+Sold-out Button Array : 0,0,0,0,0,0,0,0,1,0 trigger_function.js:149
+Available Button Array : 1,1,1,1,1,1,1,1,0,1 trigger_function.js:150
+soldout called init_function.js:338
+selection dim called init_function.js:370
+backtoselection init_function.js:309
+secound onSelectionMode called callback_function.js:92
+79
+Timer 0.3 Second Call:  trigger_function.js:113
+prodcutpress init_function.js:260
+3
+Timer 0.3 Second Call:  trigger_function.js:113
+button: 10, image: img/SCCHK/10.png, cost: $0.3 callback_function.js:8
+Timer 0.3 Second Call:  trigger_function.js:113
+ trigger_function.js:48
+Button : 10 is pressed trigger_function.js:49
+2
+Timer 0.3 Second Call:  trigger_function.js:113
+10:56:38.140 : calling 4BH trigger_function.js:182
+onVendRequestMode 0 callback_function.js:47
+46
+Timer 0.3 Second Call:  trigger_function.js:113
+10:56:52.13 : 4AH trigger_function.js:173
+Message Code : 78 trigger_function.js:174
+onMessageScreen: 78 callback_function.js:102
+Timer 0.3 Second Call:  trigger_function.js:113
+10:56:52.607 : 4AH trigger_function.js:173
+Message Code : 78 trigger_function.js:174
+onMessageScreen: 78 callback_function.js:102
+19
+Timer 0.3 Second Call:  trigger_function.js:113
+Vend Idle.......... trigger_function.js:145
+Remaining Credit : .30 trigger_function.js:146
+Sold-out Button Array : 0,0,0,0,0,0,0,0,1,1 trigger_function.js:149
+Available Button Array : 1,1,1,1,1,1,1,1,0,0 trigger_function.js:150
+soldout called init_function.js:338
+selection dim called init_function.js:370
+backtoselection init_function.js:309
+secound onSelectionMode called callback_function.js:92
+10
+Timer 0.3 Second Call:  trigger_function.js:113
+prodcutpress init_function.js:260
+3
+Timer 0.3 Second Call:  trigger_function.js:113
+button: 7, image: img/SCCHK/7.png, cost: $0.3 callback_function.js:8
+Timer 0.3 Second Call:  trigger_function.js:113
+ trigger_function.js:48
+Button : 7 is pressed trigger_function.js:49
+2
+Timer 0.3 Second Call:  trigger_function.js:113
+10:57:3.391 : calling 4BH trigger_function.js:182
+onVendRequestMode 0 callback_function.js:47
+46
+Timer 0.3 Second Call:  trigger_function.js:113
+10:57:17.268 : 4AH trigger_function.js:173
+Message Code : 78 trigger_function.js:174
+onMessageScreen: 78 callback_function.js:102
+Timer 0.3 Second Call:  trigger_function.js:113
+10:57:17.819 : 4AH trigger_function.js:173
+Message Code : 78 trigger_function.js:174
+onMessageScreen: 78 callback_function.js:102
+18
+Timer 0.3 Second Call:  trigger_function.js:113
+Vend Idle.......... trigger_function.js:145
+Remaining Credit : .30 trigger_function.js:146
+Sold-out Button Array : 0,0,0,0,0,0,1,0,1,1 trigger_function.js:149
+Available Button Array : 1,1,1,1,1,1,0,1,0,0 trigger_function.js:150
+soldout called init_function.js:338
+selection dim called init_function.js:370
+backtoselection init_function.js:309
+secound onSelectionMode called callback_function.js:92
+18
+Timer 0.3 Second Call:  trigger_function.js:113
+prodcutpress init_function.js:260
+3
+Timer 0.3 Second Call:  trigger_function.js:113
+button: 3, image: img/SCCHK/2.png, cost: $0.1 callback_function.js:8
+Timer 0.3 Second Call:  trigger_function.js:113
+ trigger_function.js:48
+Button : 3 is pressed trigger_function.js:49
+Timer 0.3 Second Call:  trigger_function.js:113
+10:57:30.546 : calling 4BH trigger_function.js:182
+onVendRequestMode 0 callback_function.js:47
+49
+Timer 0.3 Second Call:  trigger_function.js:113
+10:57:45.341 : 4AH trigger_function.js:173
+Message Code : 78 trigger_function.js:174
+onMessageScreen: 78 callback_function.js:102
+Timer 0.3 Second Call:  trigger_function.js:113
+10:57:45.894 : 4AH trigger_function.js:173
+Message Code : 78 trigger_function.js:174
+onMessageScreen: 78 callback_function.js:102
+18
+Timer 0.3 Second Call:  trigger_function.js:113
+Vend Idle.......... trigger_function.js:145
+Remaining Credit : .30 trigger_function.js:146
+Sold-out Button Array : 0,0,1,0,0,0,1,0,1,1 trigger_function.js:149
+Available Button Array : 1,1,0,1,1,1,0,1,0,0 trigger_function.js:150
+soldout called init_function.js:338
+selection dim called init_function.js:370
+backtoselection init_function.js:309
+secound onSelectionMode called callback_function.js:92
+8
+Timer 0.3 Second Call:  trigger_function.js:113
+prodcutpress init_function.js:260
+4
+Timer 0.3 Second Call:  trigger_function.js:113
+button: 5, image: img/SCCHK/5.png, cost: $0.2 callback_function.js:8
+ trigger_function.js:48
+Button : 5 is pressed trigger_function.js:49
+3
+Timer 0.3 Second Call:  trigger_function.js:113
+10:57:56.31 : calling 4BH trigger_function.js:182
+onVendRequestMode 0 callback_function.js:47
+47
+Timer 0.3 Second Call:  trigger_function.js:113
+10:58:10.206 : 4AH trigger_function.js:173
+Message Code : 78 trigger_function.js:174
+onMessageScreen: 78 callback_function.js:102
+Timer 0.3 Second Call:  trigger_function.js:113
+10:58:10.731 : 4AH trigger_function.js:173
+Message Code : 78 trigger_function.js:174
+onMessageScreen: 78 callback_function.js:102
+18
+Timer 0.3 Second Call:  trigger_function.js:113
+Vend Idle.......... trigger_function.js:145
+Remaining Credit : .30 trigger_function.js:146
+Sold-out Button Array : 0,0,1,0,1,0,1,0,1,1 trigger_function.js:149
+Available Button Array : 1,1,0,1,0,1,0,1,0,0 trigger_function.js:150
+soldout called init_function.js:338
+selection dim called init_function.js:370
+backtoselection init_function.js:309
+secound onSelectionMode called callback_function.js:92
+10
+Timer 0.3 Second Call:  trigger_function.js:113
+prodcutpress init_function.js:260
+3
+Timer 0.3 Second Call:  trigger_function.js:113
+button: 1, image: img/SCCHK/1.png, cost: $0.1 callback_function.js:8
+Timer 0.3 Second Call:  trigger_function.js:113
+ trigger_function.js:48
+Button : 1 is pressed trigger_function.js:49
+2
+Timer 0.3 Second Call:  trigger_function.js:113
+10:58:21.170 : calling 4BH trigger_function.js:182
+onVendRequestMode 0 callback_function.js:47
+46
+Timer 0.3 Second Call:  trigger_function.js:113
+10:58:35.44 : 4AH trigger_function.js:173
+Message Code : 78 trigger_function.js:174
+onMessageScreen: 78 callback_function.js:102
+Timer 0.3 Second Call:  trigger_function.js:113
+10:58:35.632 : 4AH trigger_function.js:173
+Message Code : 78 trigger_function.js:174
+onMessageScreen: 78 callback_function.js:102
+19
+Timer 0.3 Second Call:  trigger_function.js:113
+Vend Idle.......... trigger_function.js:145
+Remaining Credit : .30 trigger_function.js:146
+Sold-out Button Array : 1,0,1,0,1,0,1,0,1,1 trigger_function.js:149
+Available Button Array : 0,1,0,1,0,1,0,1,0,0 trigger_function.js:150
+soldout called init_function.js:338
+selection dim called init_function.js:370
+backtoselection init_function.js:309
+secound onSelectionMode called callback_function.js:92
+11
+Timer 0.3 Second Call:  trigger_function.js:113
+prodcutpress init_function.js:260
+4
+Timer 0.3 Second Call:  trigger_function.js:113
+button: 6, image: img/SCCHK/6.png, cost: $0.2 callback_function.js:8
+ trigger_function.js:48
+Button : 6 is pressed trigger_function.js:49
+3
+Timer 0.3 Second Call:  trigger_function.js:113
+10:58:46.918 : calling 4BH trigger_function.js:182
+onVendRequestMode 0 callback_function.js:47
+48
+Timer 0.3 Second Call:  trigger_function.js:113
+10:59:1.391 : 4AH trigger_function.js:173
+Message Code : 78 trigger_function.js:174
+onMessageScreen: 78 callback_function.js:102
+Timer 0.3 Second Call:  trigger_function.js:113
+10:59:1.876 : 4AH trigger_function.js:173
+Message Code : 78 trigger_function.js:174
+onMessageScreen: 78 callback_function.js:102
+497
+Timer 0.3 Second Call:  

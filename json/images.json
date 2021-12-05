@@ -1,0 +1,12 @@
+{
+  "images": [
+    {
+      "media_name": "photo1",
+      "media_path": "img/coca_1x1.png"
+    },
+    {
+      "media_name": "photo1",
+      "media_path": "img/coca_light_1x1.png"
+    }
+  ]
+}

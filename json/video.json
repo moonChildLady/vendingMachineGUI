@@ -1,0 +1,12 @@
+{
+  "videos": [
+    {
+      "media_name": "photo1",
+      "media_path": "videos/testing11.mp4"
+    },
+    {
+      "media_name": "photo1",
+      "media_path": "videos/testing.mp4"
+    }
+  ]
+}

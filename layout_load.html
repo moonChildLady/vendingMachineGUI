@@ -1,0 +1,428 @@
+<script>
+	$(document).ready(function() {
+	//$('div[mediaType="product"]').on('click', prodcutpress);
+
+	$("#onVendRequestMode").bind('click', function(){
+			//$()
+			//$('div[mediaType="product"]').eq(0).on('click', ).click();
+			//storePress('1', 'img/coca_light_1x1.png', '.01');
+			
+			//$("#cs").click();
+			$('.testing').click();			
+			onVendRequestMode();
+		});
+		$("#onOctopusDeducted").bind('click', function(){
+			//if($("#block_modal").length > 0){
+			//storePress('1', 'img/coca_light_1x1.png', '0.01');
+			vend_image = "img/coca_light_1x1.png";
+			onOctopusDeducted(0.9, 19.2);
+			//}else{
+			//	alert("For testing only, please choose one product")
+			//}
+		});
+		$(".onOctopusError1").bind('click', function(){
+			//if($("#block_modal").length > 0){
+			vend_image = "img/coca_light_1x1.png";
+			var code = $(this).attr("code");
+			var credit1 = $(this).attr("credit");
+			if(credit1 == "undefined"){
+			onOctopusError(code);
+			}else{
+				onOctopusError(code, credit1);
+			}
+			//}else{
+			//	alert("For testing only, please choose one product")
+			//}
+		});
+		$("#onVendCompleted").bind('click', function(){
+			//if($("#block_modal").length > 0){
+			vend_image = "img/coca_light_1x1.png";
+			onVendCompleted();
+			//}else{
+			//	alert("For testing only, please choose one product")
+			//}
+		});
+		$(".onMessageScreen").bind('click', function(){
+			//if($("#block_modal").length > 0){
+			vend_image = "img/SCCHK/8.png";
+			var code = $(this).attr("code");
+				onMessageScreen(code);
+			//}else{
+			//	alert("For testing only, please choose one product")
+			//}
+		});
+		$("#onSelectionMode").bind('click', function(){
+			//if($("#block_modal").length > 0){
+			//initcount = 0;
+			//initcall();
+			//$('.row_slideshow').cycle('init');
+			onSelectionMode(0.00,null,null);
+
+			//}else{
+			//	alert("For testing only, please choose one product")
+			//}
+		});
+		$("#cancelButtonPressed").bind('click', function(){
+			//if($("#block_modal").length > 0){
+			
+			onSelectionMode(0.00,null,null);
+
+			//}else{
+			//	alert("For testing only, please choose one product")
+			//}
+		});
+		$("#resetto0").bind('click', function(){
+			//if($("#block_modal").length > 0){
+			
+			
+			credit = 0;
+			$("#credit").text("Credit: "+credit);
+		});
+		
+		$("#addValue").bind('click', function(){
+			//if($("#block_modal").length > 0){
+			
+			//cancelButtonPressed();
+			credit += 0.5;
+			$("#credit").text("Credit: "+credit);
+			//}else{
+			//	alert("For testing only, please choose one product")
+			//}
+		});
+		$("#dimProduct").bind('click', function(){
+			var testing = ["0","1","0","0","1","0","1","0","0","1"];
+			var testing2 = ["0","0","0","1","0","1","0","1","0","0"];
+			onSelectionMode(0.2, testing,testing2);
+		});
+		$("#backtoSelectionMode").bind('click', function(){
+			var testing = ["0","1","0","0","1","0","1","0","0","1"];
+			var testing2 = ["0","0","0","1","0","1","0","1","0","0"];
+			backtoselection(.00, testing,testing2);
+			$("#credit").text("Credit: "+credit);
+		});
+		$("#initcall0").bind('click', function(){
+			initcount = 0;
+		});
+		$("#onAdd").bind('click', function(){
+			//initcount = 0;
+			var testing = ["0","1","0","0","1","0","1","0","0","1"];
+			var testing2 = ["0","0","0","0","0","0","0","1","0","0"];
+			onSelectionMode(0.2, testing,testing2);
+		});
+		$("#pause").bind('click', function(){
+			//initcount = 0;
+			$('.row_slideshow').cycle('pause');
+		});
+		$("#resume").bind('click', function(){
+			//initcount = 0;
+			$('.row_slideshow').cycle('resume');
+		});
+		$("#next1").bind('click', function(){
+			$('.row_slideshow').cycle('next');
+		});
+		$("#video_pause").bind('click', function(){
+		document.getElementById("videotag").pause();
+		});
+		$("#reinit").bind('click', function(){
+		//document.getElementById("videotag").pause();
+		//$('.row_slideshow').cycle();
+		$('.row_slideshow').cycle('reinit', {
+		speed: 2000, // speed of the srolling (ms)
+		timeout: 2000 // staying interval of each srolling (ms)
+	});
+		});
+		
+		});
+	</script>
+  	<div class="btn-group">
+ <button class="btn btn-primary" id="onSelectionMode">onSelectionMode</button>
+ <button class="btn btn-primary" id="onVendRequestMode">onVendRequestMode</button>
+ <button class="btn btn-primary" id="onOctopusDeducted">onOctopusDeducted</button>
+   <div class="btn-group">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      onOctopusError
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="onOctopusError1" code="16">Error code: 16,17,34</a></li>
+      <li><a class="onOctopusError1" code="19">Error code: 19,24</a></li>
+      <li><a class="onOctopusError1" code="20">Error code: 20,32</a></li>
+      <li><a class="onOctopusError1" code="21">Error code: 21</a></li>
+      <li><a class="onOctopusError1" code="22">Error code: 22,25</a></li>
+      <li><a class="onOctopusError1" code="48" credit="19.2">Error code: 48  with value 19.2</a></li>
+    </ul>
+  </div>
+ <button class="btn btn-primary" id="onVendCompleted">onVendCompleted</button>
+    <div class="btn-group">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      onMessageScreen
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+    	<li><a class="onMessageScreen" code="78">Msg code: 78</a></li>
+      <li><a class="onMessageScreen" code="79">Msg code: 79</a></li>
+    </ul>
+</div>
+
+ <button class="btn btn-primary" id="cancelButtonPressed">cancelButtonPressed</button><button class="btn btn-primary" id="addValue">addValue value+0.5</button>
+<button class="btn btn-primary" id="onAdd">onSelectionMode(0.1, soldout, selection)</button>
+ <button class="btn btn-primary" id="resetto0">resetto0</button><button class="btn btn-primary" id="dimProduct">dimProduct value+0.2</button><button class="btn btn-primary" id="backtoSelectionMode">backtoSelectionMode</button><button class="btn btn-primary" id="initcall0">initcall to 0</button><button class="btn btn-primary" id="pause">Pause</button><button class="btn btn-primary" id="resume">Resume</button><button class="btn btn-primary" id="next1">next1</button><button class="btn btn-primary" id="video_pause">video pause</button><button class="btn btn-primary" id="reinit">Reinit</button>
+</div>
+
+
+  	<div id="lang_position" class="text-right"><span id="credit" style="color:white;font-size:20px"></span><img src="img/img_menu_btn_en.png" value="english" usemap="#Map"><map name="Map" id="Map">
+  <area shape="rect" coords="0,1,47,50" id="cs" />
+  <area shape="rect" coords="51,1,113,49" id="lang" />
+</map></div>
+  	
+  <div id="page1">
+<!--div class="container"-->
+<!--
+data-cycle-reverse="false" = scroll left to right
+data-cycle-reverse="true" = scroll right to left
+ = row 1, set 1, No.1 item
+-->
+
+<div class="row_slideshow" data-cycle-fx="scrollHorz" 
+
+data-cycle-slides="> div" 
+data-cycle-reverse="false"
+>
+<div class="row">
+	<div class="col-xs-4 col-md-4 clone colspan2 vcenter_div block1x2" mediaType="product" style="height:640px">
+	<p><div></div>
+    
+	</p>
+	</div>
+	<div class="col-xs-4 col-md-4 clone vcenter_div block1x2" mediaType="product" style="height:640px">
+	<p><div></div>
+	
+	</p>
+	</div>
+<div class="col-xs-4 col-md-4 clone vcenter_div block1x2" mediaType="product" style="height:640px">
+<p><div></div>
+<img src="" class="img-responsive ">
+</p>
+</div>	
+</div>
+<div class="row">
+	<div class="col-xs-8 col-md-8 for_clone block2x2 testing" mediaType="product" style="height:640px">
+	<p><div></div>
+    
+	</p>
+	</div>
+	<div class="col-xs-4 col-md-4 for_clone block1x1" mediaType="product" style="height:320px">
+	<p><div></div>
+	
+	</p>
+	</div>
+<div class="col-xs-4 col-md-4 for_clone block1x1" mediaType="product" style="height:320px">
+<p><div></div>
+
+</p>
+</div>	
+</div>
+
+<div class="row">
+
+	<div class="col-xs-4 col-md-4 for_clone block1x1" mediaType="product" style="height:320px">
+	<p><div></div>
+	
+	</p>
+	</div>
+		<div class="col-xs-8 col-md-8 for_clone block2x2 colspan" mediaType="product" style="height:640px">
+	<p><div></div>
+    
+	</p>
+	</div>
+<div class="col-xs-4 col-md-4 for_clone block1x1" mediaType="product" style="height:320px">
+<p><div></div>
+
+</p>
+</div>	
+
+</div>
+
+</div>
+
+
+<div class="row_slideshow" data-cycle-fx="scrollHorz" 
+
+data-cycle-slides="> div" 
+data-cycle-reverse="true"
+>
+<div class="row">
+	<div class="col-xs-4 col-md-4" mediaType="product" style="height:640px;padding-left:0px">
+		<div class="row">
+		<div class="col-xs-12 col-md-12 block1x1" mediaType="video" style="height:320px">
+		
+		</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-md-12 block1x1" mediaType="product" style="height:320px">
+				<p><div></div>
+					
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-xs-4 col-md-4 vcenter_div block1x2" mediaType="product" style="height:640px">
+	<p><div></div>
+	
+	</p>
+	</div>
+	<div class="col-xs-4 col-md-4 block1x1" mediaType="product" style="height:320px">
+	<p><div></div>
+	
+	</p>
+	</div>
+	<div class="col-xs-4 col-md-4  block1x1" mediaType="images" style="height:320px">
+	</div>
+
+	
+</div>
+
+
+<div class="row">
+	<div class="col-xs-4 col-md-4 block1x1" mediaType="video" style="height:320px;padding-left:0px">
+	
+	</div>
+	<div class="col-xs-4 col-md-4 colspan vcenter_div block1x2" mediaType="product" style="height:640px">
+	<p><div></div>
+	
+	</p>
+	</div>
+	<div class="col-xs-4 col-md-4 block1x1" mediaType="product" style="height:320px">
+	<p><div></div>
+	
+	</p>
+	</div>
+	<div class="col-xs-4 col-md-4 block1x1" mediaType="product" style="height:320px">
+	<p><div></div>
+	
+	</p>
+	</div>
+	<div class="col-xs-4 col-md-4 block1x1" mediaType="news" style="height:320px">
+	</div>
+</div>
+
+
+
+<div class="row">
+	<div class="col-xs-4 col-md-4 vcenter_div block1x2" mediaType="product" style="height:640px">
+	<p><div></div>
+	
+	</p>
+	</div>
+		<div class="col-xs-4 col-md-4 block1x1" mediaType="news" style="height:320px"> 
+	</div>
+	<div class="col-xs-4 col-md-4 block1x1" mediaType="product" style="height:320px">
+	<p><div></div>
+	
+	</p>
+	</div>
+	<div class="col-xs-4 col-md-4 block1x1" mediaType="product" style="height:320px">
+	<p><div></div>
+	
+	</p>
+	</div>
+	<div class="col-xs-4 col-md-4 block1x1" mediaType="news" style="height:320px">
+	</div>
+</div>
+
+</div>
+
+<!--row3-->
+<div class="row_slideshow" data-cycle-fx="scrollHorz" 
+
+data-cycle-slides="> div" 
+data-cycle-reverse="false"
+>
+
+
+
+
+<div class="row">
+	<div class="col-xs-4 col-md-4 vcenter_div block1x2" mediaType="product" style="height:640px">
+	<p><div></div>
+	
+	</p>
+	</div>
+	<div class="col-xs-4 col-md-4 block1x1" mediaType="product" style="height:320px">
+	<p><div></div>
+	
+	</p>
+	</div>
+	<div class="col-xs-4 col-md-4 block1x1" mediaType="product" style="height:320px">
+	<p><div></div>
+	
+	</p>
+	</div>
+	<div class="col-xs-4 col-md-4 block1x1" mediaType="product" style="height:320px">
+	<p><div></div>
+	
+	</p>
+	</div>
+	<div class="col-xs-4 col-md-4 block1x1" mediaType="news" style="height:320px">
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-xs-4 col-md-4 block1x1" mediaType="product" style="height:320px">
+		<p><div></div>
+	
+	</p>
+	</div>
+	<div class="col-xs-4 col-md-4 colspan vcenter_div block1x2" mediaType="product" style="height:640px">
+	<p><div></div>
+	
+	</p>
+	</div>
+	<div class="col-xs-4 col-md-4 block1x1" mediaType="product" style="height:320px">
+	<p><div></div>
+	
+	</p>
+	</div>
+	<div class="col-xs-4 col-md-4 block1x1" mediaType="product" style="height:320px">
+	<p><div></div>
+	
+	</p>
+	</div>
+	<div class="col-xs-4 col-md-4 block1x1" mediaType="news" style="height:320px">
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-xs-4 col-md-4" mediaType="product" style="height:640px;padding-left:0px">
+		<div class="row">
+		<div class="col-xs-12 col-md-12 block1x1_notmove" mediaType="news" style="height:320px">
+		</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-md-12 block1x1" mediaType="product" style="height:320px">
+				<p><div></div>
+					
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-xs-4 col-md-4 vcenter_div block1x2" mediaType="product" style="height:640px">
+	<p><div></div>
+	
+	</p>
+	</div>
+	<div class="col-xs-4 col-md-4 block1x1" mediaType="product" style="height:320px">
+	<p><div></div>
+	
+	</p>
+	</div>
+	<div class="col-xs-4 col-md-4  block1x1" mediaType="product" style="height:320px">
+	<p><div></div>
+	
+	</p>
+	</div>
+
+	
+</div>
+</div>
+</div>
