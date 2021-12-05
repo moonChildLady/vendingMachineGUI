@@ -1,3 +1,3 @@
 # Vending Machine GUI
  
-![Alt Text](https://gfycat.com/bossyillegalgyrfalcon)
+![Alt Text](https://thumbs.gfycat.com/BossyIllegalGyrfalcon-size_restricted.gif)
